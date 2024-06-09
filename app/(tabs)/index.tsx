@@ -13,18 +13,9 @@ export default function HomeScreen() {
       <ScrollView contentContainerStyle={styles.container}>
         <PlayerCard
           name="Lionel Messi"
-          position="Forward"
-          rating="93"
-          photo="https://example.com/photo_messi.jpg"
-          star={require('@/assets/images/EstrellaAmarilla')}
+          position="CD"
+          statics="89"
         />
-        {/* <PlayerCard
-          name="Cristiano Ronaldo"
-          position="Forward"
-          rating="92"
-          photo="https://example.com/photo_ronaldo.jpg"
-        /> */}
-        {/* Agrega más PlayerCard aquí */}
       </ScrollView>
     </>
   );
@@ -35,7 +26,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 18,
     backgroundColor: '#f5f5f5',
   }
 });

@@ -2,6 +2,11 @@
   "expo": {
     "name": "appfutbol",
     "slug": "appfutbol",
+    "rnpm": {
+      "assets": [
+        "./assets/fonts/"
+      ]
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
